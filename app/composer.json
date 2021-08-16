@@ -1,0 +1,21 @@
+{
+    "name": "velorb/log-cleaner",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Robert Bzdzikot",
+            "email": "r.bzdzikot@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {"Velorb\\LogCleaner\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Velorb\\LogCleaner\\Tests\\": "tests/"
+        }
+    }
+}
